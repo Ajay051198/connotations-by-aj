@@ -34,3 +34,27 @@
   font-weight: lighter;
   letter-spacing: 5px;
 }
+
+.loadmore {
+  position: relative;
+  top: -20px;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .loadmore {
+    animation: bounce infinite 3s ease-in-out;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
