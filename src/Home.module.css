@@ -1,0 +1,23 @@
+.slate {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.aj {
+  font-size: 123px;
+  transform: rotate(339deg);
+  font-family: 'Over the Rainbow', cursive;
+}
+
+.slogan {
+  position: relative;
+  top: -40px;
+  font-size: small;
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
