@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import styles from './Home.module.scss';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
-import { style } from '@mui/system';
 
 function Home() {
   const contentRef = useRef(null);
