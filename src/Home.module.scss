@@ -8,13 +8,26 @@
   
 }
 
+@mixin unselectable {
+  property: value;
+  property: value;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .aj {
+  @include unselectable;
   font-size: 123px;
   transform: rotate(339deg);
   font-family: 'Over the Rainbow', cursive;
 }
 
 .slogan {
+  @include unselectable;
   position: relative;
   top: -40px;
   font-size: small;
