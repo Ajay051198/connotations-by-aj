@@ -1,0 +1,6 @@
+@import '../../Home.module.scss';
+
+.destination {
+  @include unselectable;
+  font-size: 30px;
+}
